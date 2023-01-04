@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color:rgb(228, 228, 228);
+    --background-color2:rgb(41, 41, 41);
+    --letter-color:rgb(41, 41, 41);
+    --letter-color2:rgb(140, 140, 140);
+    --icons-color:rgb(228, 228, 228);
+    --btn-color:rgb(134, 234, 3);
+}
+
+
+body{
+    background-color: var(--background-color);
+}
+
+#menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--background-color2);
+    padding: 0.81rem;
+}
+
+#menu i{
+    color: var(--icons-color);
+}
+
+#fst-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fst-call{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--background-color2);
+}
+
+.fst-call h2:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fst-call h2:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 2rem;
+}
+
+.button-1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 14rem;
+   margin: 0.2rem 0 1rem 0;
+   padding: 0.8rem;
+   border-radius: 2rem;
+   font-size: 1rem;
+}
+
+.button-1 a{
+    text-decoration: none;
+}
+
+.fts{
+    background-color: var(--background-color2);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fts a{
+    color: var(--icons-color);
+}
+
+.fts-2{
+    background-color: var(--btn-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fts-2 a{
+    color: var(--background-color2);
+}
+
+.phone-image{
+   display: flex;
+   width: 400px;
+   height: 400px;
+}
+
+.fst-image img{
+    width: 100%;
+    padding: 4rem;
+}
+
+.description{
+    display: flex;
+    text-align: center;
+    max-width: 20rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--background-color2);
+
+}
+
+#fst-app{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+#fst-app img{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+#fst-app p{
+    display: flex;
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+    color: var(--letter-color2);
+}
+
+#fst-app .circle-app{
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fst-app .share-app{
+    display: flex;
+    max-width: 60%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
