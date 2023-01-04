@@ -8,6 +8,7 @@
     --background-color2:rgb(41, 41, 41);
     --letter-color:rgb(41, 41, 41);
     --letter-color2:rgb(140, 140, 140);
+    --font-color:rgb(14, 95, 244);
     --icons-color:rgb(228, 228, 228);
     --btn-color:rgb(134, 234, 3);
 }
@@ -26,6 +27,7 @@ body{
     align-items: center;
     background-color: var(--background-color2);
     padding: 0.81rem;
+    z-index: 100;
 }
 
 #menu i{
@@ -160,4 +162,116 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+/* IPHONE-14 CONTENT */
+
+#iphone-14{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Banner plus */
+
+.banner {
+    display: flex;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: #FBFBFD;
+
+}
+
+.banner img{
+    display: flex;
+    width: 100%;
+    padding-top: 12rem;
+}
+
+.banner .white-desc{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: black;
+}
+
+.white-desc h2{
+    display: flex;
+    align-self: center;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--letter-color) ;
+}
+
+.white-desc p{
+    display: flex;
+    align-self: center;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.white-desc div a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 0 2rem 0 2rem;
+}
+
+/* Banner-2 iPhone 14 pro */
+.banner-2{
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.banner-2  img{
+    display: flex;
+    width: 100%;
+    padding-top: 12rem;
+}
+
+.banner-2 .black-desc{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: black;
+  }
+
+  .black-desc h2{
+    display: flex;
+    align-self: center;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--background-color) ;
+}
+
+.black-desc p{
+    display: flex;
+    align-self: center;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1rem;
+    color: var(--background-color);
+}
+
+.black-desc div a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 0 2rem 0 2rem;
+} 
+
+
+
 
