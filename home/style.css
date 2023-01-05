@@ -179,6 +179,7 @@ body{
 .banner {
     display: flex;
     position: relative;
+    margin-bottom: 1rem;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -228,6 +229,7 @@ body{
     display: flex;
     width: 100%;
     position: relative;
+    margin-bottom: 1rem;
     text-align: center;
     justify-content: center;
     background-color: black;
@@ -273,5 +275,58 @@ body{
 } 
 
 
+/* Conteudo sobre Apple Watch-series 8 */
 
+#watch-series{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.banner-series{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.banner-series .series-img{
+    display: flex;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.watch-series-desc{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+}
+
+.watch-series-desc .series-logo{
+    display: flex;
+    width: 25%;
+    margin-top: 3rem;
+}
+
+.watch-series-desc h3{
+    display: flex;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--background-color) ;
+}
+
+.watch-series-desc div a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 0 2rem 0 2rem;
+} 
 
